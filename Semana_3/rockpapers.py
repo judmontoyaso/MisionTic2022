@@ -27,6 +27,6 @@ while contP1 < 2 and contP2 < 2:
         contP1 += 1
     elif Player2 == "S" and Player1 == "R":
         print( "El jugador 2 gana")
-        contP2 += 2
+        contP2 += 1
 
 
