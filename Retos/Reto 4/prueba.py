@@ -1,2 +1,0 @@
-actualizar_estado_editor = ["Definamos qué es una función de Python: ","Una función es ","un arreglo unidimensional de datos", "DESHACER", "DESHACER", "REHACER", "un grupo de instrucciones"]
-print(actualizar_estado_editor[-1])
