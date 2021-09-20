@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+.logo {
+  height: 70px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.mainButton {
+  background-color: #1bb76e;
+  color: #ffffff;
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: holder;
+  
+}
+
+.mainButton:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow:1px 1px green;
+}
