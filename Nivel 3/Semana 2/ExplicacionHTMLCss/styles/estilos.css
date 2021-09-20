@@ -18,6 +18,21 @@ ul {
   padding: 10px;
 }
 
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  border: 0px;
+  outline: none;
+}
 
 .button {
   border: 0px;
@@ -26,7 +41,7 @@ ul {
   font-weight: holder;
 }
 
-.button:hover{
+.button:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
