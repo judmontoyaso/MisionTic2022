@@ -18,18 +18,48 @@ ul {
   padding: 10px;
 }
 
-.mainButton {
-  background-color: #1bb76e;
-  color: #ffffff;
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  border: 0px;
+  outline: none;
+}
+
+.button {
   border: 0px;
   padding: 5px 10px;
   border-radius: 8px;
   font-weight: holder;
-  
 }
 
-.mainButton:hover{
+.button:hover {
   cursor: pointer;
   transform: scale(1.1);
-  box-shadow:1px 1px green;
+}
+
+.mainButton {
+  background-color: #1bb76e;
+  color: #ffffff;
+}
+
+.mainButton:hover {
+  box-shadow: 1px 1px green;
+}
+
+.secundaryButton {
+  background-color: #60a9ee;
+  color: #ffffff;
+}
+
+.secundaryButton:hover {
+  box-shadow: 1px 1px blue;
 }
