@@ -1,15 +1,67 @@
-p {
-    color: chartreuse;
+
+body {
+  margin: 0px;
 }
 
-h3 {
-color: green;
+.logo {
+  height: 70px;
 }
 
-#parrafo3{
-    color: chocolate;
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
-.fondogris{
-     background-color: grey;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
+
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  border: 0px;
+  outline: none;
+}
+
+.button {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: holder;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton {
+  background-color: #1bb76e;
+  color: #ffffff;
+}
+
+.mainButton:hover {
+  box-shadow: 1px 1px green;
+}
+
+.secundaryButton {
+  background-color: #60a9ee;
+  color: #ffffff;
+}
+
+.secundaryButton:hover {
+  box-shadow: 1px 1px blue;
+}
+
