@@ -1,4 +1,3 @@
-
 body {
   margin: 0px;
 }
@@ -20,7 +19,6 @@ ul {
   background-color: rgb(237, 237, 237);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px gray;
-
 }
 
 .navbar > li {
@@ -77,6 +75,24 @@ ul {
   box-shadow: 1px 1px blue;
 }
 
-.iconoBusqueda:hover{
+.iconoBusqueda:hover {
   color: blue;
+}
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+}
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
 }
