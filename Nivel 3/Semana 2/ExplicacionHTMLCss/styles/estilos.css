@@ -79,6 +79,18 @@ ul {
   color: blue;
 }
 
+.buttonAdd {
+  color: white;
+  padding: 5px;
+}
+
+.tituloPrincipal {
+  text-align: center;
+  color: gray;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .breedCardContainer {
   display: flex;
 }
@@ -86,7 +98,7 @@ ul {
 .breedCard {
   margin: 10px;
   background-color: rgb(78, 78, 90);
-  box-shadow: 5px, 10px, 5px, rgb(237, 237, 237);
+  box-shadow: 5px, 10px, 5px, rgb(22, 22, 22);
   border-radius: 10px;
 }
 
