@@ -115,3 +115,29 @@ ul {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
+.barraReacciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.buttonReaccion {
+  color: white;
+  padding: 5px;
+}
+
+.buttonReaccion:hover {
+  cursor: pointer;
+}
+
+.iconoLike {
+  color: red;
+}
+
+.number {
+  color: white;
+  font-weight: bold;
+}
