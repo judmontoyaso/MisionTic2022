@@ -1,0 +1,155 @@
+body {
+  margin: 0px;
+}
+
+.logo {
+  height: 70px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(237, 237, 237);
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  border: 0px;
+  outline: none;
+}
+
+.button {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: holder;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton {
+  background-color: #1bb76e;
+  color: #ffffff;
+}
+
+.mainButton:hover {
+  box-shadow: 1px 1px green;
+}
+
+.secundaryButton {
+  background-color: #60a9ee;
+  color: #ffffff;
+}
+
+.secundaryButton:hover {
+  box-shadow: 1px 1px blue;
+}
+
+.iconoBusqueda:hover {
+  color: blue;
+}
+
+.buttonAdd {
+  color: white;
+  padding: 5px;
+}
+
+.tituloPrincipal {
+  text-align: center;
+  color: gray;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+  background-color: rgb(78, 78, 90);
+  box-shadow: 5px, 10px, 5px, rgb(22, 22, 22);
+  border-radius: 10px;
+}
+
+.breedTittle {
+  color: white;
+  margin: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.barraReacciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.buttonReaccion {
+  color: white;
+  padding: 5px;
+}
+
+.buttonReaccion:hover {
+  cursor: pointer;
+}
+
+.iconoLike {
+  color: red;
+}
+
+.number {
+  color: white;
+  font-weight: bold;
+}
